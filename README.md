@@ -35,10 +35,12 @@
 - transformers 2.2.0+ (tested with version 3.4.0)
 
 #### 对话模块
-- torch(tested with version 1.3.1)
-- tensorboardX(tested with version 1.9)
-- pytorch-pretrained-bert(tested with version 0.6.1)
+- nltk (tested with version 3.5)
+- torch (tested with version 1.3.1)
+- tensorboardX (tested with version 1.9)
+- pytorch-pretrained-bert (tested with version 0.6.1)
 - tqdm (tested with version 4.36.1)
+- seaborn (tested with version 0.11.1)
 
 #### 中文新闻分类模块
 - numpy (tested with version 1.19.2)
@@ -102,7 +104,7 @@
 4. ~~位于项目根目录，输入命令`python ./nlp/applicaitons/spert/server.py`来启动信息抽取模块，随后在浏览器中输入本机网址及端口`2334`，来测试模块是否启动成功。若页面出现出现`Nobody Likes Problem`，则表明模块启动成功。~~ 信息抽取模块已经在端口`2334`启动成功。
 
 > 👇对话模块`dialog`
-5. ~~位于项目根目录，输入命令`python ./nlp/applicaitons/dialog/server.py`来启动对话系统模块，随后在浏览器中输入本机网址及端口`2335`，来测试模块是否启动成功。若页面出现出现`Nobody Likes Problem`，则表明模块启动成功。~~ 对话模块已经在端口`2335`启动成功。
+5. ~~位于项目根目录，输入命令`python ./server.py --cuda`来启动对话系统模块，随后在浏览器中输入本机网址及端口`2335`，来测试模块是否启动成功。若页面出现出现`Nobody Likes Problem`，则表明模块启动成功。~~ 对话模块已经在端口`2335`启动成功。
 
 > 👇中文新闻分类模块`text_classification_ch`
 6. ~~位于服务根目录，输入命令`python ./server.py`来启动中文新闻分类模块，随后在浏览器中输入本机网址及端口`2336`，来测试模块是否启动成功。若页面出现出现`Nobody Likes Problem`，则表明模块启动成功。~~ 中文新闻分类模块已经在端口`2336`启动成功。
@@ -125,8 +127,8 @@
 > 👇信息抽取模块`extract`
 4. ~~位于项目根目录，输入命令`python ./nlp/applicaitons/spert/server.py`来启动信息抽取模块。~~ 信息抽取模块已经在端口`2334`启动成功。
 
->  👇对话模块`dialog`
-5. ~~位于项目根目录，输入命令`python ./nlp/applicaitons/dialog/server.py`来启动对话系统模块。~~ 对话系统模块已经在端口`2335`启动成功。
+> 👇对话模块`dialog`
+5. ~~位于服务根目录，输入命令`python ./server.py --cuda`来启动对话系统模块。~~ 对话系统模块已经在端口`2335`启动成功。
 
 > 👇中文新闻分类模块`text_classification_ch`
 6. ~~位于服务根目录，输入命令`python ./server.py`来启动中文新闻分类模块。~~ 中文新闻分类模块已经在端口`2336`启动成功。

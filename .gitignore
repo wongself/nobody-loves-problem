@@ -11,6 +11,7 @@ local_settings.py
 db.sqlite3
 db.sqlite3-journal
 media
+.DS_Store
 
 # If your build process includes running collectstatic, then you probably don't need or want to include staticfiles/
 # in your Git repository. Update and uncomment the following line accordingly.
@@ -167,4 +168,7 @@ dmypy.json
 /nlp/applicaitons/mrc/data
 
 # dialog
-.DS_Store
+/nlp/applicaitons/dialog/CMAML/data
+/nlp/applicaitons/dialog/CMAML/save
+/nlp/applicaitons/dialog/CMAML/tmp
+/nlp/applicaitons/dialog/CMAML/vectors
